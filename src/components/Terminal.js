@@ -173,7 +173,7 @@ const Terminal = () => {
         `}
       </pre>
       <p className="text">
-        Welcome to my interactive web terminal 🖥️<br />
+        Welcome to my interactive web terminal ,Best viewed in Desktop/Laptop. 🖥️<br />
         whoami - A quick introduction about me.<br />
         resume - To take a look at my resume.<br />
         projects - To know & view my recent projects.<br />
