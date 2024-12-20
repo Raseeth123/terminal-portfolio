@@ -1,15 +1,19 @@
-body{
+
+body {
   padding: 10px;
   background-color: rgb(23, 18, 18);
   font-size: 20px;
+  margin: 0;
+  font-family: 'Ubuntu Mono', monospace;
+  color: rgb(211, 207, 196);
 }
 
-.hulk{
+.hulk {
   font-size: 16px;
-  color:rgb(211, 207, 196);
+  color: rgb(211, 207, 196);
 }
 
-input{
+input {
   background-color: transparent;
   border: none;
   flex: 1;
@@ -18,83 +22,144 @@ input{
   font-weight: 400;
   color: rgb(211, 207, 196);
 }
-input:focus{
+
+input:focus {
   outline: none;
 }
-p, .text-styles{
+
+p, .text-styles {
   font-family: 'Ubuntu Mono', monospace;
   font-size: 20px;
   font-weight: 400;
   margin: 0;
 }
-.text,.detroit{
+
+.text, .detroit {
   color: rgb(211, 207, 196);
 }
-.us-clr{
+
+.us-clr {
   font-size: 20px;
   display: inline-block;
-
 }
-.highlight-cmd{
+
+.highlight-cmd {
   text-shadow: 0px 0px 3px rgb(211, 207, 196);
 }
-.in{
+
+.in {
   color: rgb(215, 153, 33);
 }
-.in-domain{
+
+.in-domain {
   color: rgb(152, 151, 26);
 }
-.input-data{
+
+.input-data {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  gap: 10px;
 }
-.output-data{
+
+.output-data {
   font-family: 'Ubuntu Mono', monospace;
   font-weight: 400;
   margin: 0;
   color: rgb(215, 153, 33);
-  transition: 0.15s;
-}
-a{
-  text-decoration: none;
-  color: rgb(215, 153, 33);
-  transition: 0.15s;
+  transition: 0.15s ease-in-out;
 }
 
-a:hover{
+a {
+  text-decoration: none;
+  color: rgb(215, 153, 33);
+  transition: 0.15s ease-in-out;
+}
+
+a:hover {
   color: rgb(211, 207, 196);
 }
 
-.my-pic{
+.my-pic {
   width: 105px;
   height: 105px;
   object-fit: contain;
   border-radius: 100%;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 30px;
+  flex-wrap: wrap;
 }
 
-
-li::marker{
+li::marker {
   color: rgb(211, 207, 196);
 }
 
-.op-text{
+.op-text {
   font-size: 20px;
 }
 
-@media screen and (max-width:600px) {
-  .hulk{
-    font-size: 7px;
+@media screen and (max-width: 1200px) {
+  .container {
+    gap: 20px;
   }
-  .in,text,.op-text,input,p,.text-styles{
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .my-pic {
+    width: 90px;
+    height: 90px;
+  }
+
+  input {
+    font-size: 18px;
+  }
+
+  .us-clr, .op-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 8px;
+  }
+
+  .hulk {
     font-size: 14px;
   }
 
+  .in, .text, .op-text, input, p, .text-styles {
+    font-size: 16px;
+  }
+
+  .my-pic {
+    width: 70px;
+    height: 70px;
+  }
+
+  .input-data {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .output-data {
+    font-size: 14px;
+  }
+
+  .us-clr {
+    font-size: 14px;
+  }
 }
