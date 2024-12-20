@@ -1,0 +1,100 @@
+body{
+  padding: 10px;
+  background-color: rgb(23, 18, 18);
+  font-size: 20px;
+}
+
+.hulk{
+  font-size: 16px;
+  color:rgb(211, 207, 196);
+}
+
+input{
+  background-color: transparent;
+  border: none;
+  flex: 1;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(211, 207, 196);
+}
+input:focus{
+  outline: none;
+}
+p, .text-styles{
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+}
+.text,.detroit{
+  color: rgb(211, 207, 196);
+}
+.us-clr{
+  font-size: 20px;
+  display: inline-block;
+
+}
+.highlight-cmd{
+  text-shadow: 0px 0px 3px rgb(211, 207, 196);
+}
+.in{
+  color: rgb(215, 153, 33);
+}
+.in-domain{
+  color: rgb(152, 151, 26);
+}
+.input-data{
+  display: flex;
+  flex-direction: row;
+}
+.output-data{
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: 400;
+  margin: 0;
+  color: rgb(215, 153, 33);
+  transition: 0.15s;
+}
+a{
+  text-decoration: none;
+  color: rgb(215, 153, 33);
+  transition: 0.15s;
+}
+
+a:hover{
+  color: rgb(211, 207, 196);
+}
+
+.my-pic{
+  width: 105px;
+  height: 105px;
+  object-fit: contain;
+  border-radius: 100%;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+
+li::marker{
+  color: rgb(211, 207, 196);
+}
+
+.op-text{
+  font-size: 20px;
+}
+
+@media screen and (max-width:600px) {
+  .hulk{
+    font-size: 7px;
+  }
+  .in,text,.op-text,input,p,.text-styles{
+    font-size: 14px;
+  }
+
+}
