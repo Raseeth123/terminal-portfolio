@@ -142,7 +142,7 @@ const Terminal = () => {
         ""
       ]);
       setTimeout(() => {
-        window.open('https://leetcode.com/u/raseeth/', '_blank');
+        window.open('https://leetcode.com/u/raseeth2593/', '_blank');
       }, 1500);
     }
     else if (command.toLowerCase() === "github") {
