@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# Terminal Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my **interactive web terminal**! 🚀 Best viewed on **Desktop/Laptop**. 🖥️
 
-## Available Scripts
+This project is a unique **terminal-based portfolio** built using **React.js** and **Tailwind CSS**, offering an interactive way to navigate my profile, projects, and achievements.
 
-In the project directory, you can run:
+## 📌 Available Commands
+- `whoami` → A quick introduction about me.
+- `resume` → To take a look at my resume.
+- `projects` → To know & view my recent projects.
+- `achievements` → To know my accomplishments till now.
+- `techstack` → To take a look at my skillset.
+- `linkedin` → To view my LinkedIn profile.
+- `github` → To view my GitHub profile.
+- `leetcode` → To check out my LeetCode profile.
+- `help` → To view all the available commands.
+- `clear` → To clear the terminal window.
 
-### `npm start`
+**Note:** The commands are **case-insensitive**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+For a list of available commands, type `'help'`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
+- **Frontend:** React.js
+- **Styling:** Tailwind CSS
+- **No Backend or Node.js required**
 
-### `npm test`
+## ✨ Features
+- **Fully Interactive**: Experience a command-line-based portfolio with real-time responses.
+- **Minimalistic & Lightweight**: Built with performance in mind.
+- **Customization-Friendly**: Easily modify commands and styling.
+- **Responsive UI**: Works well on desktops and laptops.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📂 Folder Structure
+```
+terminal-portfolio/
+│── public/                 # Static assets
+│   ├── index.html          # Main HTML file
+│   ├── favicon.ico         # Favicon
+│── src/                    # Source code
+│   ├── components/         # Reusable React components
+│   │   ├── Terminal.js     # Main terminal interface
+│   ├── App.js              # Main application component
+│   ├── index.js            # React entry point
+│   ├── App.css             # Styling
+│   ├── index.css           # Styling
+│── tailwind.config.js      # Tailwind CSS configuration
+│── package.json            # Project metadata
+│── README.md               # Project documentation
+```
 
-### `npm run build`
+## 🚀 Getting Started
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/yourusername/terminal-portfolio.git
+cd terminal-portfolio
+```
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
+### 3️⃣ Run the App
+```bash
+npm start
+```
+The app will run locally at **http://localhost:3000/**.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Customization
+Want to personalize the commands or UI? Modify **Terminal.js** in the `components/` folder and update **App.js** as needed.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Deployment
+Easily deploy this project using **GitHub Pages**, **Vercel**, or **Netlify**. 
+```bash
+npm run build
+```
+Then, follow the respective deployment guide for your chosen platform.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🤝 Contributing
+Contributions are welcome! If you'd like to enhance the project:
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature-name`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to your branch (`git push origin feature-name`)
+5. Open a pull request
 
-### `npm run eject`
+## 📬 Contact
+Feel free to connect with me on LinkedIn: [https://www.linkedin.com/in/raseeth2004/]
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+⭐ **If you like this project, consider giving it a star!** ⭐
