@@ -23,7 +23,6 @@ For a list of available commands, type `'help'`.
 ## 🛠️ Tech Stack
 - **Frontend:** React.js
 - **Styling:** Tailwind CSS
-- **No Backend or Node.js required**
 
 ## ✨ Features
 - **Fully Interactive**: Experience a command-line-based portfolio with real-time responses.
